@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996e3e636f92fa5418ac51d1f6bdd6ec, type: 3}
+  m_Name: NULL
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: NULL
+  stagePrefabs:
+  - {fileID: 9044289047338435850, guid: dd8da7a587f2cc7489777dc98505655e, type: 3}
+  - {fileID: 9044289047338435850, guid: 70e0417c528de694f8d7ca742bacb11e, type: 3}
+  - {fileID: 9044289047338435850, guid: d23c799496f5f484e8b36905ed05e290, type: 3}
+  daysPerStage:
+  - 1
+  - 1
+  - 1
+  description: A humble crop.
+  baseHungerValue: 20
+  topGradeHungerMultiplier: 2.5
+  specialEffect: 
+  specialEffectFromGradeIndex: 5
+  specialEffectBaseChance: 1
+  specialEffectTopChance: 1
+  soilSensitivity: 1
+  unwateredGrowthFactor: 0.4
+  sellValue: 10
+  yieldAmount: 1
+  hungerValue: 25
+  rootRadius: 0.6
+  carryProp: {fileID: 0}
